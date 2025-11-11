@@ -64,57 +64,29 @@ body{font-family:'Poppins',sans-serif;overflow:hidden;background:#000;color:#fff
 </div>
 <button class="music-toggle" id="musicToggle" onclick="toggleMusic()" style="display:none;">🔊 Music On</button>
 <div class="video-container">
-<div class="scene active" id="scene1">
-<div class="scene-text"><div class="scene-title">To the most beautiful girl in my world…</div>My love, my best friend, my reason for everything. 💖</div>
-</div>
-<div class="scene" id="scene2">
-<div class="scene-text"><div class="scene-title">Two Years Together</div>Two years of togetherness,<br>Two years of endless love,<br>Two years of growing, laughing, fighting, and healing together.</div>
-</div>
-<div class="scene" id="scene3">
-<div class="scene-text">You didn't just enter my life…<br>You changed it — you made it brighter, softer, and real.<br>You became my peace in chaos, my heartbeat in silence. ❤️</div>
-<div class="floating-light" style="left:10%;animation-delay:0s;"></div>
-<div class="floating-light" style="left:30%;animation-delay:1s;"></div>
-<div class="floating-light" style="left:50%;animation-delay:2s;"></div>
-<div class="floating-light" style="left:70%;animation-delay:1.5s;"></div>
-<div class="floating-light" style="left:90%;animation-delay:.5s;"></div>
-</div>
-<div class="scene" id="scene4">
-<div class="scene-text"><div class="scene-title">Every Little Thing</div>Every little thing you do…<br>Every smile, every word, every look —<br>It all feels like home to me.</div>
-</div>
-<div class="scene" id="scene5">
-<div class="scene-text"><div class="scene-title">🎉 Happy Birthday, My Queen 🎉</div>You deserve every happiness in the universe.<br>You're not just my girlfriend —<br>You're my soulmate, my future, my everything. 💫</div>
-<div class="balloon" style="left:15%;top:20%;animation-delay:0s;">🎈</div>
-<div class="balloon" style="left:85%;top:30%;animation-delay:.5s;">🎈</div>
-<div class="balloon" style="left:25%;top:70%;animation-delay:1s;">🎂</div>
-<div class="balloon" style="left:75%;top:65%;animation-delay:1.5s;">🎁</div>
-</div>
 
-<!-- Scene 6 -->
+<div class="scene active" id="scene1"><div class="scene-text"><div class="scene-title">To the most beautiful girl in my world…</div>My love, my best friend, my reason for everything. 💖</div></div>
+<div class="scene" id="scene2"><div class="scene-text"><div class="scene-title">Two Years Together</div>Two years of togetherness,<br>Two years of endless love,<br>Two years of growing, laughing, fighting, and healing together.</div></div>
+<div class="scene" id="scene3"><div class="scene-text">You didn't just enter my life…<br>You changed it — you made it brighter, softer, and real.<br>You became my peace in chaos, my heartbeat in silence. ❤️</div><div class="floating-light" style="left:10%;animation-delay:0s;"></div><div class="floating-light" style="left:30%;animation-delay:1s;"></div><div class="floating-light" style="left:50%;animation-delay:2s;"></div><div class="floating-light" style="left:70%;animation-delay:1.5s;"></div><div class="floating-light" style="left:90%;animation-delay:.5s;"></div></div>
+<div class="scene" id="scene4"><div class="scene-text"><div class="scene-title">Every Little Thing</div>Every little thing you do…<br>Every smile, every word, every look —<br>It all feels like home to me.</div></div>
+<div class="scene" id="scene5"><div class="scene-text"><div class="scene-title">🎉 Happy Birthday, My Queen 🎉</div>You deserve every happiness in the universe.<br>You're not just my girlfriend —<br>You're my soulmate, my future, my everything. 💫</div><div class="balloon" style="left:15%;top:20%;animation-delay:0s;">🎈</div><div class="balloon" style="left:85%;top:30%;animation-delay:.5s;">🎈</div><div class="balloon" style="left:25%;top:70%;animation-delay:1s;">🎂</div><div class="balloon" style="left:75%;top:65%;animation-delay:1.5s;">🎁</div></div>
+
 <div class="scene" id="scene6">
 <div class="scene-text"><div class="scene-title">Forever & Always</div>Two years down,<br>A lifetime to go.<br>I promise to love you harder, care for you deeper,<br>and stand beside you forever.</div>
 
-<!-- ⚡ Added Slideshow -->
+<!-- Fixed Slideshow -->
 <div class="slideshow" style="position:relative;width:80%;max-width:400px;height:400px;margin:40px auto;border-radius:20px;overflow:hidden;box-shadow:0 8px 25px rgba(0,0,0,0.4);">
-<img src="mypics.jpeg" class="slide active" style="position:absolute;width:100%;height:400%;object-fit:cover;opacity:1;transition:opacity 2s ease-in-out;">
-<img src="mypics1.jpeg" class="slide" style="position:absolute;width:100%;height:400%;object-fit:cover;opacity:0;transition:opacity 2s ease-in-out;">
-<img src="mypics2.jpeg" class="slide" style="position:absolute;width:100%;height:400%;object-fit:cover;opacity:0;transition:opacity 2s ease-in-out;">
+  <img src="pic1.jpg" class="slide active" style="position:absolute;width:100%;height:100%;object-fit:cover;opacity:1;transition:opacity 1.5s ease-in-out;">
+  <img src="pic2.jpg" class="slide" style="position:absolute;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.5s ease-in-out;">
+  <img src="pic3.jpg" class="slide" style="position:absolute;width:100%;height:100%;object-fit:cover;opacity:0;transition:opacity 1.5s ease-in-out;">
 </div>
-<!-- ⚡ End Slideshow -->
-
-<div class="star" style="left:10%;top:20%;animation-delay:0s;"></div>
-<div class="star" style="left:20%;top:40%;animation-delay:.3s;"></div>
-<div class="star" style="left:80%;top:30%;animation-delay:.6s;"></div>
-<div class="star" style="left:90%;top:60%;animation-delay:.9s;"></div>
-<div class="star" style="left:50%;top:15%;animation-delay:1.2s;"></div>
-<div class="star" style="left:30%;top:80%;animation-delay:1.5s;"></div>
-<div class="star" style="left:70%;top:75%;animation-delay:1.8s;"></div>
 </div>
-<!-- End Scene 6 -->
 
 <div class="scene" id="scene7">
 <div class="scene-text"><div class="scene-title">Happy Birthday, My Love 💖</div>You're my forever story —<br>written in my heart,<br>sealed with my soul.<br><br><span style="font-size:1.5em;font-family:'Playfair Display',serif;">– From your forever person, Ahad 💞</span></div>
 </div>
 </div>
+
 <div class="controls" id="controls" style="display:none;">
 <button class="control-btn" onclick="previousScene()">← Previous</button>
 <button class="control-btn" onclick="toggleAutoPlay()" id="playPauseBtn">⏸ Pause</button>
@@ -124,26 +96,69 @@ body{font-family:'Poppins',sans-serif;overflow:hidden;background:#000;color:#fff
 <div class="progress-dot active"></div><div class="progress-dot"></div><div class="progress-dot"></div><div class="progress-dot"></div><div class="progress-dot"></div><div class="progress-dot"></div><div class="progress-dot"></div>
 </div>
 
-<!-- ⚡ Background Music -->
-<iframe src="https://www.youtube.com/embed/2Vv-BfVoq4g?autoplay=1&mute=0&loop=1&playlist=2Vv-BfVoq4g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen style="position:fixed;bottom:20px;right:20px;width:300px;height:80px;border-radius:10px;box-shadow:0 4px 15px rgba(0,0,0,0.3);z-index:999;"></iframe>
-<!-- ⚡ End Music -->
+<audio id="bgMusic" src="perfect.mp3" loop></audio>
 
 <script>
-let currentScene=0;const totalScenes=7;let autoPlayInterval;let isAutoPlaying=true;const sceneDuration=6000;
-function startVideo(){document.getElementById('startScreen').classList.add('hidden');document.getElementById('controls').style.display='flex';document.getElementById('progressBar').style.display='flex';document.getElementById('musicToggle').style.display='block';startAutoPlay();}
-function showScene(index){const scenes=document.querySelectorAll('.scene');const dots=document.querySelectorAll('.progress-dot');scenes.forEach((scene,i)=>{scene.classList.remove('active');if(i===index){scene.classList.add('active');}});dots.forEach((dot,i)=>{dot.classList.remove('active');if(i===index){dot.classList.add('active');}});currentScene=index;}
+let currentScene=0;
+const totalScenes=7;
+let autoPlayInterval;
+let isAutoPlaying=true;
+const sceneDuration=6000;
+const music=document.getElementById('bgMusic');
+
+function startVideo(){
+ document.getElementById('startScreen').classList.add('hidden');
+ document.getElementById('controls').style.display='flex';
+ document.getElementById('progressBar').style.display='flex';
+ document.getElementById('musicToggle').style.display='block';
+ startAutoPlay();
+ music.play();
+}
+
+function showScene(index){
+ const scenes=document.querySelectorAll('.scene');
+ const dots=document.querySelectorAll('.progress-dot');
+ scenes.forEach((scene,i)=>{scene.classList.remove('active');if(i===index){scene.classList.add('active');}});
+ dots.forEach((dot,i)=>{dot.classList.remove('active');if(i===index){dot.classList.add('active');}});
+ currentScene=index;
+}
+
 function nextScene(){if(currentScene<totalScenes-1){showScene(currentScene+1);}else{showScene(0);}}
 function previousScene(){if(currentScene>0){showScene(currentScene-1);}else{showScene(totalScenes-1);}}
+
 function startAutoPlay(){autoPlayInterval=setInterval(()=>{nextScene();},sceneDuration);}
 function stopAutoPlay(){clearInterval(autoPlayInterval);}
-function toggleAutoPlay(){const btn=document.getElementById('playPauseBtn');if(isAutoPlaying){stopAutoPlay();btn.textContent='▶️ Play';isAutoPlaying=false;}else{startAutoPlay();btn.textContent='⏸ Pause';isAutoPlaying=true;}}
-function toggleMusic(){const btn=document.getElementById('musicToggle');if(btn.textContent.includes('On')){btn.textContent='🔇 Music Off';}else{btn.textContent='🔊 Music On';}}
-document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')nextScene();if(e.key==='ArrowLeft')previousScene();if(e.key===' '){e.preventDefault();toggleAutoPlay();}});
-let touchStartX=0,touchEndX=0;document.addEventListener('touchstart',e=>{touchStartX=e.changedTouches[0].screenX});document.addEventListener('touchend',e=>{touchEndX=e.changedTouches[0].screenX;handleSwipe()});
+function toggleAutoPlay(){
+ const btn=document.getElementById('playPauseBtn');
+ if(isAutoPlaying){stopAutoPlay();btn.textContent='▶️ Play';isAutoPlaying=false;}
+ else{startAutoPlay();btn.textContent='⏸ Pause';isAutoPlaying=true;}
+}
+
+function toggleMusic(){
+ const btn=document.getElementById('musicToggle');
+ if(music.paused){music.play();btn.textContent='🔊 Music On';}
+ else{music.pause();btn.textContent='🔇 Music Off';}
+}
+
+document.addEventListener('keydown',e=>{
+ if(e.key==='ArrowRight')nextScene();
+ if(e.key==='ArrowLeft')previousScene();
+ if(e.key===' '){e.preventDefault();toggleAutoPlay();}
+});
+
+let touchStartX=0,touchEndX=0;
+document.addEventListener('touchstart',e=>{touchStartX=e.changedTouches[0].screenX});
+document.addEventListener('touchend',e=>{touchEndX=e.changedTouches[0].screenX;handleSwipe()});
 function handleSwipe(){if(touchEndX<touchStartX-50)nextScene();if(touchEndX>touchStartX+50)previousScene();}
 
-// ⚡ Slideshow script
-const slides=document.querySelectorAll('.slide');let currentSlide=0;setInterval(()=>{slides[currentSlide].style.opacity=0;currentSlide=(currentSlide+1)%slides.length;slides[currentSlide].style.opacity=1;},4000);
+// 💫 Slideshow Fade Fix
+const slides=document.querySelectorAll('.slide');
+let currentSlide=0;
+setInterval(()=>{
+  slides[currentSlide].style.opacity=0;
+  currentSlide=(currentSlide+1)%slides.length;
+  slides[currentSlide].style.opacity=1;
+},4000);
 </script>
 </body>
 </html>
